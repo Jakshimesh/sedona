@@ -1,0 +1,25 @@
+body {
+    padding: 5;
+    font-family: "Arial", sans-serif;
+    font-size: 18 px;
+    color: #000000;
+    background: #b35353;
+}
+
+h1 {
+    width: 260px;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.features-dog {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    background: #539db3;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-transform: uppercase;
+}
