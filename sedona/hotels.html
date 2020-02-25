@@ -1,0 +1,102 @@
+<!Doctype HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Sedona-hotels</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="img.png" alt="Logo">
+        </a>
+        <ul>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="#">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="#" method="get">
+        <p>Инфраструктура:</p>
+        <label for="pool-field">
+          Бассейн
+          <input type="checkbox" name="pool" checked id="pool-field">
+        </label>
+        <label for="parking-field">
+          Парковка
+          <input type="checkbox" name="parking" id="parking-field">
+        </label>
+        <label for="wi-fi-field">
+          wi-fi
+          <input type="checkbox" name="wi-fi" id="wi-fi-field">
+        </label>
+
+        <p>Тип жилья:</p>
+        <label for="hotel-field">
+          Гостиница
+          <input type="checkbox" name="hotel" checked id="hotel-field">
+        </label>
+        <label for="motel-field">
+          Мотель
+          <input type="checkbox" name="motel" checked id="motel-field">
+        </label>
+        <label for="apartment-field">
+          Апартаменты
+          <input type="checkbox" name="apartment" checked id="apartment-field">
+        </label>
+
+        <p>Стоимость в сутки (р):</p>
+        <label for="cost-field">  
+          <input id="cost-field">
+        </label>
+
+        <input type="submit" value="Показать">
+      </form>
+      <ul>
+          <li>
+              <img src="amara.jpg" alt="Amara Resort & SPA">
+              <h2>Amara Resort & SPA</h2>
+              <span>Гостиница</span>
+              <p>от 4000 р.</p>
+              <a href="#">Подробнее</a>
+              <button>Забронировать</button>
+              <span>рейтинг: 8,5</span>
+          </li>
+          <li>
+              <img src="desert.jpg" alt="Desert Quail Inn">
+              <h2>Desert Quail Inn</h2>
+              <span>Мотель</span>
+              <p>от 3000 р.</p>
+              <a href="#">Подробнее</a>
+              <button>Забронировать</button>
+              <span>рейтинг: 8,9</span>
+          </li>
+          <li>
+              <img src="villas.jpg" alt="Villas at Poco Diablo">
+              <h2>Villas at Poco Diablo</h2>
+              <span>Апартаменты</span>
+              <p>от 2000 р.</p>
+              <a href="#">Подробнее</a>
+              <button>Забронировать</button>
+              <span>рейтинг: 9,2</span>
+          </li>
+      </ul>
+    </main>
+    <footer>
+        <p>#Visitsedona <br>
+        Тел: +7(495)666-02-66</p>
+        <ul>
+          <li><a href="#">twitter</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">youtube</a></li>
+        </ul>
+        <p>website by
+          <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
+        </p>
+      </footer>
+  </body>
+</html>
